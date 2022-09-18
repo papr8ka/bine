@@ -9,7 +9,7 @@ import (
 	"net"
 	"os"
 
-	"github.com/cretz/bine/process"
+	"github.com/papr8ka/bine/process"
 )
 
 /*

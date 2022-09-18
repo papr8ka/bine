@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cretz/bine/tor"
+	"github.com/papr8ka/bine/tor"
 	"github.com/stretchr/testify/require"
 )
 

@@ -16,7 +16,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/cretz/bine/torutil"
+	"github.com/papr8ka/bine/torutil"
 )
 
 // Process is the interface implemented by Tor processes.

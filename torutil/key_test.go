@@ -7,7 +7,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/cretz/bine/torutil/ed25519"
+	"github.com/papr8ka/bine/torutil/ed25519"
 	"github.com/stretchr/testify/require"
 )
 
