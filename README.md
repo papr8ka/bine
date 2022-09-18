@@ -1,5 +1,7 @@
 # <img src="logo/bine-logo.png" width="180px">
 
+*For tor static, clone the tor-static repo, go build all as in README.md, then put all .a libs in lib folder at tor-static root. Project folder must be flat relative to bine.*
+
 [![GoDoc](https://godoc.org/github.com/papr8ka/bine?status.svg)](https://godoc.org/github.com/papr8ka/bine)
 
 Bine is a Go API for using and controlling Tor. It is similar to [Stem](https://stem.torproject.org/).
