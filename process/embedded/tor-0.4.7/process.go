@@ -20,6 +20,7 @@ import (
 #cgo LDFLAGS: -L${SRCDIR}/../../../../tor-static/xz/dist/lib -llzma
 #cgo LDFLAGS: -L${SRCDIR}/../../../../tor-static/zlib/dist/lib -lz
 #cgo LDFLAGS: -L${SRCDIR}/../../../../tor-static/openssl/dist/lib -lssl -lcrypto
+#cgo LDFLAGS: -L${SRCDIR}/../../../../tor-static/lib -llzma -ltor-pubsub -ltor-version -ltor-geoip -ltor-osinfo -ltor-meminfo -ltor-encoding -ltor-crypt-ops -ltor-intmath -ltor-dispatch -ltor-thread -ltor-sandbox -ltor-evloop -ltor-lock -ltor-buf -ltor-net -ltor-time -ltor-ctime -ltor-math -ltor-err -ltor-container -ltor-trace -ltor-llharden -ltor-fdio -ltor-memarea -ltor-confmgt -ltor-fs -ltor-term -ltor-metrics -ltor-compress -ltor-tls -ltor-process -ltor-log -ltor-string -ltor-wallclock -lcurve25519_donna -ltor-smartlist-core -ltor-malloc -ltorrunner -lkeccak-tiny -led25519_donna -led25519_ref10 -lor-trunnel -ltor-app -ltor -levent_openssl -levent_pthreads -levent_core -levent -levent_extra -levent_openssl -levent_pthreads -levent_core -levent -levent_extra -lz -lz -lapps -lssl -lcrypto -lssl -lcrypto
 #cgo windows LDFLAGS: -lws2_32 -lcrypt32 -lgdi32 -liphlpapi -lshlwapi -Wl,-Bstatic -lpthread
 #cgo !windows LDFLAGS: -lm
 #include <stdlib.h>
