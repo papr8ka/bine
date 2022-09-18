@@ -1,4 +1,4 @@
-module github.com/cretz/bine
+module github.com/papr8ka/bine
 
 go 1.15
 
