@@ -23,11 +23,11 @@ package embedded
 import (
 	"github.com/papr8ka/bine/process"
 
-	tor035 "github.com/papr8ka/bine/process/embedded/tor-0.3.5"
+	tor047 "github.com/papr8ka/bine/process/embedded/tor-0.4.7"
 )
 
 // NewCreator creates a process.Creator for statically-linked Tor embedded in
 // the binary.
 func NewCreator() process.Creator {
-	return tor035.NewCreator()
+	return tor047.NewCreator()
 }
